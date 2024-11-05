@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c48a60e-31b1-4d62-8a23-0c2b8b04fae9" name="Changes" comment="added microservices">
+    <list default="true" id="9c48a60e-31b1-4d62-8a23-0c2b8b04fae9" name="Changes" comment="configured student microservice">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/java/com/app/student/StudentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/com/app/student/StudentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,9 +41,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.EurekaApplication.executor": "Run",
+    "Spring Boot.StudentApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -63,6 +78,13 @@
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.course.CourseApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,7 +128,9 @@
       <updated>1730691299940</updated>
       <workItem from="1730691301048" duration="2058000" />
       <workItem from="1730736778309" duration="3564000" />
-      <workItem from="1730774385496" duration="1356000" />
+      <workItem from="1730774385496" duration="2144000" />
+      <workItem from="1730780690428" duration="1202000" />
+      <workItem from="1730820988530" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="added microservices">
       <option name="closed" value="true" />
@@ -116,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730779317267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="configured student microservice">
+      <option name="closed" value="true" />
+      <created>1730779990294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730779990294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added microservices" />
-    <option name="LAST_COMMIT_MESSAGE" value="added microservices" />
+    <MESSAGE value="configured student microservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="configured student microservice" />
   </component>
 </project>
