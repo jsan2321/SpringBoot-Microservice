@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c48a60e-31b1-4d62-8a23-0c2b8b04fae9" name="Changes" comment="configured student microservice">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="9c48a60e-31b1-4d62-8a23-0c2b8b04fae9" name="Changes" comment="added course microservice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +127,7 @@
       <workItem from="1730736778309" duration="3564000" />
       <workItem from="1730774385496" duration="2144000" />
       <workItem from="1730780690428" duration="1202000" />
-      <workItem from="1730820988530" duration="3128000" />
+      <workItem from="1730820988530" duration="4416000" />
     </task>
     <task id="LOCAL-00001" summary="added microservices">
       <option name="closed" value="true" />
@@ -148,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730779990294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added course microservice">
+      <option name="closed" value="true" />
+      <created>1730824759592</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730824759592</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added microservices" />
     <MESSAGE value="configured student microservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="configured student microservice" />
+    <MESSAGE value="added course microservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="added course microservice" />
   </component>
 </project>
