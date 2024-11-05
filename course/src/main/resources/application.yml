@@ -6,8 +6,8 @@ spring:
     name: msvc-course
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:/5432/coursesDb
-    username: postgre
+    url: jdbc:postgresql://localhost:5432/coursesDb
+    username: postgres
     password: abc123
   jpa:
     hibernate:

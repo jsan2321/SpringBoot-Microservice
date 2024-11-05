@@ -30,7 +30,7 @@ public class CourseController {
         return ResponseEntity.ok(courseService.findById(id));
     }
 
-    @GetMapping("/search-student/{idCourse}")
+    @GetMapping("/search-student/{idCourse}") // endpoint that make a query to student microservice
     public ResponseEntity<?> findStudentsByIdCourse(@PathVariable Long idCourse){
         return ResponseEntity.ok(courseService.findStudentsByIdCourse(idCourse));
     }
