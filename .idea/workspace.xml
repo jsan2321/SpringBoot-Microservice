@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c48a60e-31b1-4d62-8a23-0c2b8b04fae9" name="Changes" comment="added course microservice">
+    <list default="true" id="9c48a60e-31b1-4d62-8a23-0c2b8b04fae9" name="Changes" comment="added mvc pattern to student microservice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +127,7 @@
       <workItem from="1730736778309" duration="3564000" />
       <workItem from="1730774385496" duration="2144000" />
       <workItem from="1730780690428" duration="1202000" />
-      <workItem from="1730820988530" duration="4416000" />
+      <workItem from="1730820988530" duration="5118000" />
     </task>
     <task id="LOCAL-00001" summary="added microservices">
       <option name="closed" value="true" />
@@ -153,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730824759592</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added mvc pattern to student microservice">
+      <option name="closed" value="true" />
+      <created>1730830591004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730830591004</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +182,7 @@
     <MESSAGE value="added microservices" />
     <MESSAGE value="configured student microservice" />
     <MESSAGE value="added course microservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="added course microservice" />
+    <MESSAGE value="added mvc pattern to student microservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mvc pattern to student microservice" />
   </component>
 </project>
