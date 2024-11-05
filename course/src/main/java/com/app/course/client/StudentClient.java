@@ -10,6 +10,6 @@ import java.util.List;
 @FeignClient(name = "msvc-student", url = "localhost:8090") // microservice to query
 public interface StudentClient {
 
-    @GetMapping("/api/student/search-by-course/{courseId}")
-    List<StudentDTO> findAllStudentByCourse(@PathVariable Long courseId);
+    @GetMapping("/api/student/search-by-course/{idCourse}")
+    List<StudentDTO> findAllStudentByCourse(@PathVariable Long idCourse);
 }

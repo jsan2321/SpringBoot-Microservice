@@ -24,7 +24,7 @@ public class Student {
     private String lastName;
     private String email;
 
-    @Column(name = "course_id")
-    private Long courseId;
+    @Column(name = "id_course")
+    private Long idCourse;
 
 }

@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c48a60e-31b1-4d62-8a23-0c2b8b04fae9" name="Changes" comment="added mvc pattern to course microservice">
+    <list default="true" id="9c48a60e-31b1-4d62-8a23-0c2b8b04fae9" name="Changes" comment="added StudentDTO class to course microservice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/app/course/CourseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/app/course/CourseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/app/course/client/StudentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/app/course/client/StudentClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course/src/main/java/com/app/course/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/app/course/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/app/course/controller/dto/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/app/course/controller/dto/StudentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/app/course/service/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/app/course/service/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/app/course/service/ICourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/app/course/service/ICourseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student/src/main/java/com/app/student/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/com/app/student/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/src/main/java/com/app/student/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/com/app/student/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/src/main/java/com/app/student/persistence/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/com/app/student/persistence/StudentRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +138,7 @@
       <workItem from="1730780690428" duration="1202000" />
       <workItem from="1730820988530" duration="7279000" />
       <workItem from="1730833184522" duration="65000" />
-      <workItem from="1730833259728" duration="335000" />
+      <workItem from="1730833259728" duration="3257000" />
     </task>
     <task id="LOCAL-00001" summary="added microservices">
       <option name="closed" value="true" />
@@ -176,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730831457459</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added openfeign dependency to the pom of the course service">
+      <option name="closed" value="true" />
+      <created>1730833608394</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730833608394</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added StudentDTO class to course microservice">
+      <option name="closed" value="true" />
+      <created>1730834262158</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730834262158</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +219,8 @@
     <MESSAGE value="added course microservice" />
     <MESSAGE value="added mvc pattern to student microservice" />
     <MESSAGE value="added mvc pattern to course microservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mvc pattern to course microservice" />
+    <MESSAGE value="added openfeign dependency to the pom of the course service" />
+    <MESSAGE value="added StudentDTO class to course microservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="added StudentDTO class to course microservice" />
   </component>
 </project>
